@@ -1,0 +1,15 @@
+開啟LINE DEVELOPER 並登入(要登林鼎鈞的)
+
+開啟VS Code
+開啟ngrok: ngrok http:5050
+
+更改LINE的Webhook URL
+
+開啟bert-serving:
+bert-serving-start -model_dir {中文模型的路徑名稱} -num_worker=1(一顆的GPU)
+have to see:
+I:[33mWORKER-0[0m:ready and listening!
+I:[35mVENTILATOR[0m:all set, ready to serve request!
+
+
+RUN:python hotelnlp.py

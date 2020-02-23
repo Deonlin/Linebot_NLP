@@ -33,7 +33,7 @@ def sentToVect(sent1,List=None):
 
 
 #import your Line developer channel access token
-line_bot_api = LineBotApi('Bag0LXKvWSDAhvFjcY1kXTCfGoMuYeBNDDiJOnKbA1cGi/bRccjkWs5Ha2ST4uXeOps3hkuIEyMs0gcMP6i8Fde/91+nmaJv3ywMSTo2cCzuGA1lTGKjoAeQCpC7voLkvOz5IYAyDj8lrNvxPaQH3AdB04t89/1O/w1cDnyilFU=')
+line_bot_api = LineBotApi('your line Channel access token ')
 #import your LINE developers channel secret code
 handler = WebhookHandler('9859ce7d5e04ac171ba276c689d53990')
 

@@ -6,3 +6,6 @@ $ pip install bert-serving-client # client, independent of 'bert-serving-server'
 
 # 啟動服務
 $ bert-serving-start -model_dir 你的中文模型路徑 -num_worker=1
+
+# server
+暫時先用ngrok.  please open ngrok.exe
